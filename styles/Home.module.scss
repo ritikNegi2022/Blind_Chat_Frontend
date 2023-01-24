@@ -2,7 +2,7 @@
   @apply flex-grow flex justify-center bg-gray-900;
   height: 93vh;
   .dashboard {
-    @apply bg-gray-500 flex flex-col flex-grow relative items-center max-w-2xl shadow-slate-500 justify-between;
+    @apply bg-gray-500 flex flex-col flex-grow relative items-center max-w-2xl shadow-slate-500;
     height: 93vh;
     .topContainer {
       @apply flex w-full items-center;
