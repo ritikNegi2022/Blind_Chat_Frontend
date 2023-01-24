@@ -1,0 +1,25 @@
+.container {
+  @apply flex-grow flex justify-center bg-gray-900;
+  height: 93vh;
+  .dashboard {
+    @apply bg-gray-500 flex flex-col flex-grow relative items-center max-w-2xl shadow-slate-500 justify-between;
+    height: 93vh;
+    .topContainer {
+      @apply flex w-full items-center;
+      height: 2.9 vh;
+      .state {
+        @apply text-center text-lg font-bold text-white  flex-grow;
+      }
+      .buttonTwo {
+        @apply text-center w-2/4 text-lg font-bold text-white bg-red-600;
+      }
+    }
+    .buttonContainer {
+      @apply w-full flex justify-center p-2;
+      height: 6vh;
+      .buttonOne {
+        @apply bg-white px-5 text-lg rounded-md;
+      }
+    }
+  }
+}

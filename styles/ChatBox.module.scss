@@ -1,0 +1,34 @@
+.chatContainer {
+  @apply flex flex-col flex-grow w-full;
+  height: 90.1vh;
+  .chatBody {
+    @apply flex-grow overflow-y-auto h-full overflow-y-auto;
+  }
+  .chatFooter {
+    @apply w-full py-2 px-1 flex items-center bg-black;
+    height: 6vh;
+    input {
+      @apply flex-grow p-2 rounded-l-md text-lg outline-none h-full;
+    }
+    button {
+      @apply text-lg px-3 h-full bg-gray-600 rounded-r-md;
+    }
+  }
+}
+.overFlow{
+    @apply flex-grow overflow-hidden py-3 px-1;
+    height: 84vh
+}
+.chatLine {
+  @apply flex w-full my-2;
+  .messageContainer {
+    @apply flex flex-col px-1 rounded-md;
+    min-width: 120px;
+    h1 {
+      @apply text-2xl text-start;
+    }
+    p {
+      @apply text-xs text-end;
+    }
+  }
+}

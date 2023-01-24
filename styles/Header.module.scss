@@ -1,0 +1,10 @@
+.header{
+    @apply flex bg-black text-2xl sm:text-3xl py-2 justify-around sm:px-5 items-center;
+    height: 7vh;
+    .title{
+        @apply text-white font-bold;
+    }
+    a{
+        @apply text-white text-xl justify-self-end;
+    }
+}
