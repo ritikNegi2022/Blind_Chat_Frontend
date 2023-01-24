@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           {partner && <ChatBox socket={socket} partner={partner} />}
           <div className={classes.buttonContainer}>
-            {!partner && (
+            {state === "Ideal" && (
               <button className={classes.buttonOne} onClick={joinHandler}>
                 Join
               </button>
