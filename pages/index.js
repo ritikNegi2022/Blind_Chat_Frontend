@@ -61,9 +61,13 @@ export default function Home() {
           </div>
           {partner && <ChatBox socket={socket} partner={partner} />}
           <div className={classes.buttonContainer}>
-            {!partner && (
+            {(state === "Ideal") & (state !== "Connected") ? (
               <button className={classes.buttonOne} onClick={joinHandler}>
                 Join
+              </button>
+            ) : (
+              <button className={classes.buttonOne} onClick={leaveHandler}>
+                Leave
               </button>
             )}
           </div>
