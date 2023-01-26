@@ -1,8 +1,10 @@
 .container {
-  @apply flex-grow flex justify-center bg-gray-900;
+  @apply flex-grow flex justify-center;
+  background-color: #333333;
   height: 93vh;
   .dashboard {
-    @apply bg-gray-500 flex flex-col flex-grow relative items-center max-w-2xl shadow-slate-500;
+    @apply  flex flex-col flex-grow relative items-center max-w-2xl shadow-slate-500;
+    background-color: #0e0e0e;
     height: 93vh;
     .topContainer {
       @apply flex w-full items-center;
@@ -22,4 +24,13 @@
       }
     }
   }
+}
+.warning{
+  width: 80%;
+  aspect-ratio: 1/2;
+  background-image: url('../public/bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 50%;
+  opacity: 1;
 }
