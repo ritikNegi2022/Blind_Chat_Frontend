@@ -24,6 +24,7 @@
   .messageContainer {
     @apply flex flex-col px-1 rounded-md;
     min-width: 120px;
+
     h1 {
       @apply text-2xl text-start;
     }
