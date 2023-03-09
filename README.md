@@ -4,6 +4,6 @@ An anonymous chatting app made with Socket.IO is a platform that allows users to
 
 Users of the app can engage in one to one conversations with others without revealing their true identity. The app assigns a random username to each user, ensuring complete anonymity.
 
-The app's user interface is intuitive and user-friendly, with chat messages appearing instantly in real-time. The app's functionality is further enhanced with features like emoji support, message deletion, and notifications, providing a seamless user experience.
+The app's user interface is intuitive and user-friendly, with chat messages appearing instantly in real-time.
 
 Overall, an anonymous chatting app made with Socket.IO is a powerful and versatile tool that provides users with a fun and anonymous platform to engage in real-time conversations with others.
