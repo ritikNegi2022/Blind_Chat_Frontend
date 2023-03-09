@@ -1,4 +1,4 @@
-# Blind Char
+# Blind Chat
 
 An anonymous chatting app made with Socket.IO is a platform that allows users to engage in real-time, anonymous conversations with other users. Socket.IO is a JavaScript library that enables real-time, bidirectional communication between web clients and servers. This app uses this technology to create a seamless, fast, and reliable experience for users.
 
