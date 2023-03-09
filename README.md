@@ -7,3 +7,5 @@ Users of the app can engage in one to one conversations with others without reve
 The app's user interface is intuitive and user-friendly, with chat messages appearing instantly in real-time.
 
 Overall, an anonymous chatting app made with Socket.IO is a powerful and versatile tool that provides users with a fun and anonymous platform to engage in real-time conversations with others.
+
+Link for the website -> https://blind-chat-frontend.vercel.app/
